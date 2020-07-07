@@ -1,0 +1,54 @@
+[
+    {
+      "id": 0,
+      "name": "Harvard University",
+      "unprice": 66900,
+      "magprice": 66900,
+      "adm": 5.9,
+      "finaid": true,
+      "dirs": ["Science", "Mangement", "Arts", "Engineering"],
+      "sat": 1460,
+      "gpa": 4.5,
+      "toefl": 80,
+      "ielts": 6.5,
+      "docs": "Motivation letter, Summary, Three letters of recommendation",
+      "desc": "Harvard University is one of the most famous and oldest universities in the United States",
+      "site": "https://www.unipage.net/ru/harvard_university",
+      "img": "https://t.unipage.net/src/gsgku3.png"
+    },
+    {
+      "id": 1,
+      "name": "Massachusetts Institute of Technology",
+      "unprice": 58240,
+      "magprice": 58240,
+      "adm": 8.3,
+      "finaid": true,
+      "dirs": ["Science", "Mangement", "Arts", "Engineering"],
+      "sat": 1520,
+      "gpa": 4.7,
+      "toefl": 90,
+      "ielts": 7.5,
+      "docs": "Motivation letter, Summary, Three letters of recommendation",
+      "desc": "Massachusetts Institute of Technology (MIT) is one of the most famous technical universities in the United States and around the world",
+      "site": "https://www.unipage.net/en/massachusetts_institute_of_technology",
+      "img": ""
+    },
+    {
+      "id": 2,
+      "name": "Nanjing University",
+      "unprice": 2766,
+      "magprice": 2766,
+      "adm": 6,
+      "finaid": true,
+      "dirs": ["Science", "Mangement", "Arts", "Medicine", "Engineering"],
+      "sat": 0,
+      "gpa": 0,
+      "toefl": 0,
+      "ielts": 0,
+      "docs": "Motivation letter, Summary, Three letters of recommendation",
+      "desc": "Nanjing University or 南京大學 (NU) - public higher education institution in China",
+      "site": "https://www.unipage.net/en/613/nanjing_university",
+      "img": ""
+    }
+  ]
+  

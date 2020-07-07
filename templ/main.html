@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UNI-Finder</title>
+        {%HEAD%}
+    </head>
+    <body>
+        <!--Navbar-->
+        {%NAV%}
+        <!--Main-->
+        <h1 align="center" class="user-select-none yep">Find University by Exams</h1>
+        <form style='width: 40%; margin-left: 30%; margin-top: 2%;' action="/search" method="GET">
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Direction</label>
+              <div class="col-sm-10">
+                <select class="custom-select" name="dir">
+                    <option selected>Direction</option>
+                    <option value="MBA">MBA</option>
+                    <option value="Medicine">Medicine</option>
+                    <option value="Economics">Economics</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">GPA</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputEmail3" name="gpa" min="1" max="5" step="0.1">
+              </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">SAT</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="inputEmail3" name="sat" min="0" max="1600" step="1">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">IELTS</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="inputEmail3" name="ielts" min="1" max="9" step="0.5">
+                </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">TOEFL</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputEmail3" name="toefl" min="0" max="120" step="1">
+              </div>
+          </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" class="btn btn-outline-success btn-lg" align="center" style="margin-left: 40%; width: 40%; margin-top: 5%;">
+                  <svg width="0.9em" height="0.9em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                  </svg>
+                  Search
+                </button>
+              </div>
+            </div>
+          </form>
+        <script>
+          var typed = new Typed('.yep', {
+            strings: ['Find University by SAT', 'Find University by IELTS', 'Find University by TOEFL', 'Find University by GPA', 'Find University by Exams'],
+            typeSpeed: 80,
+            startDelay: 200,
+            backSpeed: 60
+            
+          });
+        </script>
+        <!--Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
